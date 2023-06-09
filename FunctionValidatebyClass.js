@@ -1,8 +1,3 @@
-// take input
-//const string = prompt('Enter your name: ');
-
-
-
 function validateEmail(inputText) {
   var mailFormat =  /\S+@\S+\.\S+/;
   if (inputText.value.match(mailFormat)) {
